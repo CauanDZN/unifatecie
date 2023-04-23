@@ -5,6 +5,8 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
   title: 'Unifatecie',
+  description: 'Site da Unifatecie',
+  icons: 'app/favicon.png'
 }
 
 export default function RootLayout({

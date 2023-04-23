@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ['latin'] })
 export default function Home() {
   return (
     <div className='flex'>
-      <Image src="/unifatecie.png" alt='Foto da Unifatecie' width={400} height={40}/>
+      <Image src="/unifatecie.png" alt='Foto da Unifatecie' width={300} height={84}/>
       <h1>Tela principal</h1>
     </div>
   )
