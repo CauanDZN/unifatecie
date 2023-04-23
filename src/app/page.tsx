@@ -1,13 +1,14 @@
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
+import Header from '@/components/Header'
 
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
-    <div className='flex'>
-      <Image src="/unifatecie.png" alt='Foto da Unifatecie' width={300} height={84}/>
-      <h1>Tela principal</h1>
-    </div>
+    <>
+      <Header />
+      <h1>Home</h1>
+    </>
   )
 }
