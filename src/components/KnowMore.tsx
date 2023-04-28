@@ -1,7 +1,7 @@
 export function KnowMore(){
     return (
         <figure className="rounded-xl p-8 bg-slate-800">
-            <img className="w-24 h-24 rounded-full mx-auto" src="https://static.dw.com/image/680783_804.jpg" alt="" width="384" height="512" />
+            <img className="w-24 h-20 rounded-full mx-auto" src="https://static.dw.com/image/680783_804.jpg" alt="" width="384" height="512" />
             <div className="pt-6 space-y-4">
                 <blockquote>
                 <p className="text-lg font-medium text-white">
@@ -13,7 +13,7 @@ export function KnowMore(){
                 <div className="text-sky-500 dark:text-sky-400">
                     Malcolm X
                 </div>
-                <div className="text-slate-700 dark:text-slate-500">
+                <div className="text-slate-500">
                     Ativista dos Direitos Humanos | Nebraska - EUA
                 </div>
                 </figcaption>

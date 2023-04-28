@@ -1,4 +1,5 @@
 const colors = require('tailwindcss/colors')
+const { fontFamily } = require('tailwindcss/defaultTheme')
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
@@ -11,7 +12,11 @@ module.exports = {
     extend: {
       screens: {
         '2xl': '1280px'
-      }
+      },
+      fontFamily: {
+        'sans': ['var(--font-inter)'],
+        ...fontFamily
+      },
     },
     colors: {
       'orange': '#F9A260',

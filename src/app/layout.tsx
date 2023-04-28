@@ -1,22 +1,14 @@
 import './globals.css'
-import { Inter } from 'next/font/google'
+import localFont from 'next/font/local';
 
-const inter = Inter({ subsets: ['latin'] })
+const myFont = localFont({ src: './Inter.ttf' });
 
-export const metadata = {
-  title: 'Unifatecie',
-  description: 'Site da Unifatecie',
-  icons: 'app/favicon.png'
-}
-
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode
+export default function RootLayout({ children }: {
+  children: React.ReactNode;
 }) {
   return (
-    <html lang="pt-br">
-      <body className={inter.className}>{children}</body>
+    <html lang="en" className={myFont.className}>
+      <body>{children}</body>
     </html>
-  )
+  );
 }
