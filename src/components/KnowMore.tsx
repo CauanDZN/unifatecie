@@ -4,7 +4,7 @@ export function KnowMore(){
             <img className="w-24 h-24 rounded-full mx-auto" src="https://static.dw.com/image/680783_804.jpg" alt="" width="384" height="512" />
             <div className="pt-6 space-y-4">
                 <blockquote>
-                <p className="text-lg font-medium">
+                <p className="text-lg font-medium text-white">
                     “A educação é o nosso passaporte para o futuro, 
                     pois o amanhã pertence às pessoas que se preparam hoje.”
                 </p>
