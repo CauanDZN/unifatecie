@@ -8,6 +8,11 @@ module.exports = {
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
+    extend: {
+      screens: {
+        '2xl': '1280px'
+      }
+    },
     colors: {
       'orange': '#F9A260',
       'orange-dark': '#F48634',
